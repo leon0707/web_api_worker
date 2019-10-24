@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Web push & service worker</title>
+</head>
+
+<body>
+  <h1>Web push & service worker by <a href="mailto:leonlibinfeng@gamil.com?Subject=Web%20worker" target="_top">Leon Feng</a></h1>
+  <h3>open the console to check the log</h3>
+  <section>
+  	<h2>Web Worker</h2>
+  	<div class="web-worker">
+  		<button type="button" id="send_message">send a message to web worker</button>
+  		<button type="button" id="terminate_worker">terminate the web worker</button>
+  		<button type="button" id="worker_close">ask web worker to close itself</button>
+  		<button type="button" id="throw_error">ask web worker to throw an error</button>
+  	</div>
+  </section>
+  <section>
+  	<h2>Service Worker</h2>
+  	<div class="service-worker">
+  		<button type="button" id="send_notification">send a notification to this browser</button>
+  	</div>
+  </section>
+  <script src="client.js"></script>
+</body>
+
+</html>
