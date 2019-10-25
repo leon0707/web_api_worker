@@ -13,3 +13,10 @@ npm i
 npm start
 ```
 go to `localhost:5000`
+
+## use new vapid key
+```shell
+npm install -g web-push
+web-push generate-vapid-keys
+```
+update key in frontend and backend
