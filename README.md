@@ -14,7 +14,7 @@ npm start
 ```
 go to `localhost:5000`
 
-## use new vapid key
+## use new vapid keys
 ```shell
 npm install -g web-push
 web-push generate-vapid-keys
