@@ -11,8 +11,6 @@ function processMessage(message) {
     });
 }
 
-
-
 self.addEventListener('push', e => {
   const data = e.data.json();
   console.log('received message from web push server');
