@@ -44,7 +44,7 @@ if (window.Worker) {
 
 
 
-const publicVapidKey = "BBIHvrSeWx3OgNG1SwxWsMJcQOSLkpOoKgbJhCw2PD8gxWS2BgVvgjqOqxiMC_590GP2Acb8r1WoRWlG5yRuneQ";
+const publicVapidKey = "BBIHvrSeWx3OgNG1Sw.........";
 
 function subscribeUserToPush() {
   return navigator.serviceWorker.register('service-worker.js')
